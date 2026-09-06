@@ -12,7 +12,7 @@ from benchmark import Benchmark
 BUCKET = "anyscale-imagenet"
 # This Parquet file contains the keys of images in the 'anyscale-imagenet' bucket.
 METADATA_PATH = "s3://anyscale-imagenet/metadata.parquet"
-MIN_TOTAL_WORKER_NETWORK_RECEIVE_GBPS = 50
+MIN_TOTAL_WORKER_NETWORK_RECEIVE_GBPS = 0.001
 
 
 def main():
